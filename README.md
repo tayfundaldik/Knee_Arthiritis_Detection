@@ -469,6 +469,7 @@ This approach can assist radiologists and medical researchers by:
 
 - Investigate ensemble methods to surpass the current 82% accuracy, which is insufficient for clinical deployment.
 
+- Build a web application where users can drag & drop a knee MRI image and get an automatic arthritis prediction (segmentation + classification) in real time. To support this, convert the current notebook into a structured Python package with reusable modules and a lightweight backend (e.g., Flask or FastAPI).
 
 
 
