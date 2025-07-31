@@ -439,7 +439,7 @@ The final pipeline for knee arthritis detection works as follows:
 
 The U-Net model identifies the joint region and generates a binary mask.
 
-#### Mask Application:
+#### Mask Application
 
 The mask is applied to the original MRI to produce the Masked Image (RGB), isolating the joint area for further analysis.
 
@@ -449,7 +449,7 @@ The mask is applied to the original MRI to produce the Masked Image (RGB), isola
 
 - Random Forest Classifier predicts whether the joint is Healthy or Diseased.
 
-#### Result Visualization:
+#### Result Visualization
 
 The Class Probabilities bar chart shows prediction confidence (e.g., Healthy 94.25% vs. Diseased 72.24%).
 
